@@ -7,7 +7,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   const addPartner = (data) => {
     console.log(data);
@@ -16,6 +16,7 @@ const Form = () => {
         toast.success("Submission Successful!");
       }
     });
+    reset()
   };
 
   return (
