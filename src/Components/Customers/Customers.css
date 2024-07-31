@@ -1,0 +1,15 @@
+.martin{
+    background-image: url(/public/Martin.png);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+}
+.bryan{
+    background-image: url(/public/bryan.png);
+    background-size: 100%;
+    /* background-size: 50% 50%; */
+}
+.jane{
+    background-image: url(/public/Jane.png);
+    background-size: 100%;
+    /* background-size: 50% 50%; */
+}

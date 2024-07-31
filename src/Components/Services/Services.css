@@ -1,0 +1,23 @@
+.inbound{
+    background-image: url(/public/professional.png);
+    background-repeat: no-repeat;
+    background-size: 110% 160%;
+    background-position: center;
+}
+.chat{
+    background-image: url(/public/about.png);
+    background-size: 110% 160%;
+    background-position: center;
+}
+.outbound{
+    background-image: url(/public/discussion.png);
+    background-size: 110% 160%;
+    background-position: center;
+}
+
+
+.meeting{
+    background-image: url(/public/meeting.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
